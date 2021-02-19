@@ -1,4 +1,4 @@
-// 8 kyu Reversed Strings
+// 8kyu Reversed Strings
 
 function solution(str){
 	let newString = "";
