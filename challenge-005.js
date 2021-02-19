@@ -1,7 +1,7 @@
 //8kyu Return Negative
 
 function makeNegative(num) {
-	   return -Math.abs(num)
-		}
+	return -Math.abs(num)
+}
 		
 		
