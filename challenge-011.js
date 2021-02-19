@@ -1,4 +1,4 @@
-//8kyu Even or Odd 
+//8kyu Even or Odd
 
 function even_or_odd(number) {
 	  if (number % 2 === 0)
