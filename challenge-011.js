@@ -5,4 +5,4 @@ function even_or_odd(number) {
 	  return "Even"
 	else if (number % 2 !== 0)
 	  return "Odd"
-	}
+}
