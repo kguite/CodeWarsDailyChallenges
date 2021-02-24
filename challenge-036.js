@@ -4,10 +4,9 @@
 // [68, -1, 1, -7, 10, 10] => [-1, 10]
 
 function isMultiple(arr){
-	return arr.filter((e, i) => e % i === 0){
+	return arr.filter((e, i) => e % i === 0)
 		
 	}
-}
 
 
 // whenever i see return a new array, two methods go off as an alarm bell. it's either map or filter. using filter for this one, getting rid of some stuff.
