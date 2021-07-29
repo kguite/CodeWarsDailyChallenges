@@ -5,13 +5,11 @@
 
 
 function duplicateEncode(word){
-	  return word
-		.toLowerCase()
-		.split('')
-		.map( function (v, i, arr) {
-		  return arr.indexOf(v) == arr.lastIndexOf(v) ? '(' : ')'
-		})
-		.join('');
+	  let wordArray = word.split('');
+	  return wordArray.map(letter => {
+		if(wordArray.filter(el => el.toLowerCase() === letter.toLowerCase()).length > 1) return ')';
+		return '(';
+	  }).join('');
 	}
 	
 	
